@@ -17,7 +17,7 @@
     <!-- Required librarys -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
@@ -36,11 +36,17 @@
         <h1 class="hero-title" class="load-hidden">
           Hi, my name is <span class="text-color-main">Satyaranjan Rout</span>
           <br />
-          I'm a Fullstack Developer.
+          I'm a Web Developer.
         </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="mailto:satyaranjanrout81@gmail.com">Hire Me</a>
+        <div class='btns'>
+         <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="mailto:srout.dev@gmail.com">Hire Me</a>
         </p>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href='#projects'>Projects</a>
+        </p> 
+        </div>
+        
       </div>
     </div>
     <!-- /END Hero Section -->
@@ -52,34 +58,49 @@
           About me
         </h2>
         <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Satyaranjan Rout"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                I am a self-taught programmer who fell in love with web design and development. As a kid I always wondered how everything on internet works, I always thought that internet was magic I mean how else would they create something so beautiful with so many contents and informations?
+                I am a self-taught programmer who fell in love with web. As a kid I always wondered how everything on internet works, it was like magic to me. I mean how else would they create something so beautiful with so many contents and informations?
               </p>
               <p class="about-wrapper__info-text">
-                So as I grow older I learned a thing or two about internet then I bought a web development course from udemy. Well, to be honest I pirated it cause I am broke af then I started learning about web development. And now I am a Fullstack web developer.
+                So as I grow older I learned a thing or two about internet then I bought a web development course from udemy to know more. And now I am a web developer.
               </p>
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://github.com/satanrout">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/1P4J-xn2FskCwOxkqTR2fygcNODN9wDsF/view?usp=sharing">
                   View Resume
                 </a>
               </span>
             </div>
-          </div>
         </div>
       </div>
+
+      <div class="container mt-5">
+        <h2 class="section-title">
+          Skills
+        </h2>
+        <div class="row about-wrapper">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text skills">
+                <span><i class="fab fa-html5 "></i>HTML</span>
+                <span><i class="fab fa-css3 "></i>CSS</span>
+                <span><i class="fab fa-sass "></i>SASS</span>
+                <span><i class="fab fa-bootstrap"></i>BOOTSTRAP</span>
+                <span>TAILWIND</span>
+                <span><i class="fab fa-js-square"></i>JAVASCRIPT</span>
+                <span><i class="fab fa-react"></i>REACT</span>
+                <span>REDUX</span>
+                <span>REACT ROUTER</span>
+                <span>REACT HOOKS</span>
+                <span>REST API</span>
+                <span><i class="fab fa-git-square"></i>GIT</span>
+                <span><i class="fab fa-github"></i>GITHUB</span>
+                <span>PWA</span>
+                <span>SSH</span>
+              </p>
+            </div>
+        </div>
+      </div>
+      
     </section>
     <!-- /END About Section -->
 
@@ -95,16 +116,16 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Gradient Generator</h3>
+                <h3 class="project-wrapper__text-title">Magic AI</h3>
                 <div>
                   <p class="mb-4">
-                    A simple background-gradient Generator. It generates Gradient background to your liking. You can choose any two color you want and you will get a nice Gradient color with css code so you use it on your website or app.
+                    It's a face-recognition app. It uses Machine learning to predict the name of the celebrity by their image.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://satanrout.github.io/gradient-generator/">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://magicai.netlify.app/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/satanrout/gradient-generator">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/satanrout/face-recognition">
                   Source Code
                 </a>
               </div>
@@ -113,7 +134,8 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.png" alt="Gradient Generator By Satyaranjan Rout" />
+                    <img class="img-fluid" src="./assets/magicai.png
+               " alt="magic ai face-recognition" />
                   </div>
                 </a>
               </div>
@@ -125,16 +147,16 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Flex Gallery</h3>
+                <h3 class="project-wrapper__text-title">hotNcold</h3>
                 <div>
                   <p class="mb-4">
-                    It's an animated gallery app created with flex, css and vanila javascript when click on any image the image will grow and you will an awesome quote.
+                    It's a weather app to show weather forecast for the next 5days.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://satanrout.github.io/flexGallery/">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://hotncold.netlify.app/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/satanrout/flexGallery">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/satanrout/weather-project">
                   Source Code
                 </a>
               </div>
@@ -143,7 +165,7 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project2.png" alt="FlexGallery By Satyaranjan Rout" />
+                    <img class="img-fluid" src="./assets/hotNcold.png" alt="hotNcold weather app" />
                   </div>
                 </a>
               </div>
@@ -155,16 +177,16 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">DrumKit</h3>
+                <h3 class="project-wrapper__text-title">Covid19 info for india</h3>
                 <div>
                   <p class="mb-4">
-                    A DrumKit app created with vanila javascript it responds to your keyboard and click to create music.
+                    It's a react app to get Covid19 stats the fastest and the easiest way.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://satanrout.github.io/drumKit/">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://covid19infoindia.netlify.app/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/satanrout/drumKit">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/satanrout/Covid19info">
                   Source Code
                 </a>
               </div>
@@ -173,7 +195,7 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project3.png" alt="DrumKit webapp by Satyaranjan Rout" />
+                    <img class="img-fluid" src="./assets/covid.png" alt="covid19infoindia" />
                   </div>
                 </a>
               </div>
@@ -182,7 +204,7 @@
           <!-- /END Project -->
 
           <!-- Each .row is a project -->
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
                 <h3 class="project-wrapper__text-title">LiveWeb</h3>
@@ -208,7 +230,7 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- /END Project -->
         </div>
       </div>
@@ -244,16 +266,16 @@
         </a>
         <div class="social-links">
           <a href="https://mobile.twitter.com/satyaranjanro13" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+            <i class="fab fa-twitter fa-inverse"></i>
           </a>
-          <a href="https://codepen.io/satyaranjan" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
+          <a href="https://www.facebook.com/satyaranjan.rout.566" target="_blank">
+            <i class="fab fa-facebook fa-inverse"></i>
           </a>
           <a href="https://www.linkedin.com/in/satyaranjan-rout-24b538103/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
+            <i class="fab fa-linkedin fa-inverse"></i>
           </a>
           <a href="https://github.com/satanrout" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
+            <i class="fab fa-github fa-inverse"></i>
           </a>
         </div>
 

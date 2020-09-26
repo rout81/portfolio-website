@@ -6,7 +6,7 @@
     $secondary-color 100%
   );
   color: $white-color;
-  height: 100%;
+  min-height: 100vh;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -43,12 +43,30 @@
       justify-content: center;
       flex-direction: column;
 
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+      }
+
       @include respond(tab-port-sm) {
         align-items: center;
       }
 
       &-text {
         text-align: left;
+
+        span {
+          background-color: white;
+          padding: 5px 8px;
+          border-radius: 39px;
+          color: $primary-color;
+
+          i {
+            margin-right: 3px !important;
+          }
+        }
 
         @include respond(tab-port) {
           text-align: left;
